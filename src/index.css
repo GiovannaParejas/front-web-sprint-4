@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/pagination";
 
 @theme {
   --font-sans: "Google Sans Flex", sans-serif;
@@ -33,5 +35,20 @@
 
   body {
     @apply bg-jovi-fundo font-sans text-jovi-escuro;
+  }
+}
+
+/* Paginação do carrossel nas cores da JOVI */
+.galeria-swiper {
+  --swiper-pagination-color: var(--color-jovi);
+  --swiper-pagination-bullet-inactive-color: var(--color-jovi);
+  --swiper-pagination-bullet-inactive-opacity: 0.3;
+  --swiper-pagination-bullet-size: 9px;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+}
+
+@media (min-width: 62rem) {
+  .galeria-swiper {
+    --swiper-pagination-bullet-size: 12px;
   }
 }
