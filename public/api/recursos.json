@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "icone": "/images/camera-icon.svg",
+    "alt": "Câmera ícone",
+    "titulo": "Fotos que não viravam estudo",
+    "destaque": "97%",
+    "descricao": "dos estudantes fotografam o conteúdo em aula, mas as imagens ficam dispersas, ilegíveis e sem contexto na galeria."
+  },
+  {
+    "id": 2,
+    "icone": "/images/lupa-icon.svg",
+    "alt": "Lupa ícone",
+    "titulo": "A câmera que reconhece o contexto",
+    "descricao": "Ao apontar para lousas, slides ou documentos, o JOVI Study Lens ativa o Modo Estudo automaticamente."
+  },
+  {
+    "id": 3,
+    "icone": "/images/scan-icon.svg",
+    "alt": "Scan ícone",
+    "titulo": "Do visual para o editável",
+    "descricao": "O texto da imagem é extraído na hora da captura e fica disponível para copiar, editar e salvar, sem transcrição manual."
+  },
+  {
+    "id": 4,
+    "icone": "/images/sparkle-icon.svg",
+    "alt": "Sparkle ícone",
+    "titulo": "Resumos prontos para revisar",
+    "descricao": "A IA generativa transforma o conteúdo fotografado em resumos estruturados, prontos para a revisão antes da prova."
+  },
+  {
+    "id": 5,
+    "icone": "/images/folder-icon.svg",
+    "alt": "Folder ícone",
+    "titulo": "Tudo no lugar certo",
+    "descricao": "Arquivos salvos por disciplina, convertidos em PDF e com destaque de trechos importantes, sem esforço manual."
+  },
+  {
+    "id": 6,
+    "icone": "/images/translate-icon.svg",
+    "alt": "Translate ícone",
+    "titulo": "Sem barreira de idioma",
+    "descricao": "Conteúdo em outro idioma? A câmera traduz automaticamente para o idioma do dispositivo no momento da captura."
+  }
+]

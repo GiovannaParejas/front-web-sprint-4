@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Bruce Li",
+    "funcao": "User Researcher & Estrategista de Produto",
+    "icone": "/images/bruce-icone.svg"
+  },
+  {
+    "id": 2,
+    "nome": "Felipe Rorato",
+    "funcao": "Analista de Requisitos & Editor de Vídeo",
+    "icone": "/images/felipe-icone.svg"
+  },
+  {
+    "id": 3,
+    "nome": "Giovanna Parejas",
+    "funcao": "UI/UX Designer & Desenvolvedora Front-end",
+    "icone": "/images/giovanna-icone.svg"
+  },
+  {
+    "id": 4,
+    "nome": "Laura Mirilli",
+    "funcao": "Desenvolvedora Back-end & Analista de Sistemas",
+    "icone": "/images/laura-icone.svg"
+  }
+]

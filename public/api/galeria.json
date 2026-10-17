@@ -1,0 +1,9 @@
+[
+  { "id": 1, "imagem": "/images/carrossel-1.png", "alt": "Tela Inicial" },
+  { "id": 2, "imagem": "/images/carrossel-2.png", "alt": "Pasta" },
+  { "id": 3, "imagem": "/images/carrossel-3.png", "alt": "Notas" },
+  { "id": 4, "imagem": "/images/carrossel-4.png", "alt": "IA" },
+  { "id": 5, "imagem": "/images/carrossel-5.png", "alt": "Grifar" },
+  { "id": 6, "imagem": "/images/carrossel-6.png", "alt": "Copiar" },
+  { "id": 7, "imagem": "/images/carrossel-8.png", "alt": "Traduzir" }
+]
