@@ -1,6 +1,7 @@
 import useScrollToHash from "../hooks/useScrollToHash";
 import PageTitle from "../components/PageTitle";
 import Hero from "../components/Home/Hero";
+import Solucao from "../components/home/Solucao";
 import PublicoAlvo from "../components/home/PublicoAlvo";
 import Cta from "../components/home/Cta";
 
@@ -11,6 +12,7 @@ const Home = () => {
     <>
       <PageTitle titulo="Início" />
       <Hero titulo="JOVI Study Lens" subtitulo="A câmera que estuda com você" />
+      <Solucao />
       <PublicoAlvo />
       <Cta
         titulo="Pronto para transformar a forma como você estuda?"
