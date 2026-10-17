@@ -1,6 +1,6 @@
 import useScrollToHash from "../hooks/useScrollToHash";
 import PageTitle from "../components/PageTitle";
-import Hero from "../components/Home/Hero";
+import Hero from "../components/home/Hero";
 
 const Home = () => {
   useScrollToHash();

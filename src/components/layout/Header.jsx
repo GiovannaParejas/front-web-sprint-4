@@ -1,5 +1,5 @@
 import React from "react";
-import useMenu from "../hooks/useMenu";
+import useMenu from "../../hooks/useMenu";
 
 // Links para as seções da landing page
 const LINKS = [
@@ -39,9 +39,15 @@ const Header = () => {
           className="cursor-pointer lg:hidden"
         >
           <img
-            src={aberto ? "/images/menu-fechar.svg" : "/images/menu-hamburguer.svg"}
+            src={
+              aberto ? "/images/menu-fechar.svg" : "/images/menu-hamburguer.svg"
+            }
             alt={aberto ? "Fechar menu" : "Abrir menu"}
-            className={aberto ? "size-[25px] sm:size-[35px]" : "h-[23px] w-[31px] sm:h-8 sm:w-[45px]"}
+            className={
+              aberto
+                ? "size-[25px] sm:size-[35px]"
+                : "h-[23px] w-[31px] sm:h-8 sm:w-[45px]"
+            }
           />
         </button>
 
