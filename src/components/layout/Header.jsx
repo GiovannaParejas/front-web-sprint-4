@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import useMenu from "../../hooks/useMenu";
 
 // Links para as seções da landing page
@@ -19,8 +19,15 @@ const Divisor = () => {
   return <hr className="my-[18px] border-white/50 lg:hidden" />;
 };
 
-const Header = () => {
+const Header = ({ usuario, logout }) => {
   const { aberto, alternar, fechar } = useMenu();
+
+  // Ao sair, a RotaPrivada manda quem estava na Área do Estudante para o login
+  const sair = () => {
+    logout();
+    fechar();
+    window.scrollTo(0, 0);
+  };
 
   return (
     <header className="fixed top-0 left-0 z-[1000] w-full bg-jovi px-10 py-[30px] sm:px-20 sm:py-10 lg:py-[30px]">
@@ -63,6 +70,42 @@ const Header = () => {
               </a>
             </li>
           ))}
+
+          {usuario ? (
+            <>
+              <li>
+                <Divisor />
+                <Link
+                  to="/area-do-estudante"
+                  onClick={fechar}
+                  className={LINK_CLASSES}
+                >
+                  Área do Estudante
+                </Link>
+              </li>
+              <li>
+                <Divisor />
+                <button
+                  type="button"
+                  onClick={sair}
+                  className={`${LINK_CLASSES} cursor-pointer lg:rounded-lg lg:border-2 lg:border-white lg:px-4 lg:py-1.5`}
+                >
+                  Sair
+                </button>
+              </li>
+            </>
+          ) : (
+            <li>
+              <Divisor />
+              <Link
+                to="/login"
+                onClick={fechar}
+                className={`${LINK_CLASSES} lg:rounded-lg lg:border-2 lg:border-white lg:px-4 lg:py-1.5`}
+              >
+                Entrar
+              </Link>
+            </li>
+          )}
         </ul>
       </nav>
     </header>

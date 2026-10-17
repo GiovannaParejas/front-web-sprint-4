@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nome": "Estudante JOVI",
+    "email": "estudante@jovi.com",
+    "senha": "jovi123"
+  },
+  {
+    "id": 2,
+    "nome": "Professor FIAP",
+    "email": "professor@fiap.com.br",
+    "senha": "fiap123"
+  }
+]
