@@ -4,6 +4,7 @@ import Hero from "../components/Home/Hero";
 import Solucao from "../components/home/Solucao";
 import PublicoAlvo from "../components/home/PublicoAlvo";
 import Galeria from "../components/home/Galeria";
+import Equipe from "../components/home/Equipe";
 import Cta from "../components/home/Cta";
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <Solucao />
       <PublicoAlvo />
       <Galeria />
+      <Equipe />
       <Cta
         titulo="Pronto para transformar a forma como você estuda?"
         subtitulo="Experimente o JOVI Study Lens e veja o que a sua câmera é capaz de fazer."
