@@ -2,6 +2,8 @@
 
 Evolução da landing page da Sprint 03, desenvolvida pela **Consultoria UNO**, agora como uma aplicação **React** estilizada com **Tailwind CSS**, com rotas públicas e privadas, hooks customizados e consumo de uma API mockada.
 
+🌐 **Deploy na Vercel:** https://front-web-sprint-4-kappa.vercel.app/
+
 ## 🛠️ Tecnologias utilizadas
 
 - [React 19](https://react.dev/) + [Vite](https://vite.dev/)
