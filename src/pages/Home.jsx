@@ -1,6 +1,6 @@
 import useScrollToHash from "../hooks/useScrollToHash";
 import PageTitle from "../components/PageTitle";
-import Hero from "../components/Home/Hero";
+import Hero from "../components/home/Hero";
 import Solucao from "../components/home/Solucao";
 import PublicoAlvo from "../components/home/PublicoAlvo";
 import Galeria from "../components/home/Galeria";
