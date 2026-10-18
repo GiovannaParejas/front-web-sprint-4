@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "titulo": "Leis de Newton",
+    "disciplina": "Física",
+    "tipo": "Lousa",
+    "data": "2026-09-02",
+    "resumo": "Inércia, princípio fundamental da dinâmica (F = m·a) e ação e reação, com exemplos resolvidos em sala."
+  },
+  {
+    "id": 2,
+    "titulo": "Funções do 2º grau",
+    "disciplina": "Matemática",
+    "tipo": "Slide",
+    "data": "2026-09-05",
+    "resumo": "Forma geral, cálculo do discriminante, vértice da parábola e estudo do sinal da função."
+  },
+  {
+    "id": 3,
+    "titulo": "Modernismo no Brasil",
+    "disciplina": "Literatura",
+    "tipo": "Documento",
+    "data": "2026-09-09",
+    "resumo": "Semana de Arte Moderna de 1922, primeira geração modernista e principais autores."
+  },
+  {
+    "id": 4,
+    "titulo": "Present Perfect",
+    "disciplina": "Inglês",
+    "tipo": "Slide",
+    "data": "2026-09-12",
+    "resumo": "Conteúdo traduzido automaticamente: estrutura have/has + particípio e diferença para o simple past."
+  },
+  {
+    "id": 5,
+    "titulo": "Estequiometria",
+    "disciplina": "Química",
+    "tipo": "Lousa",
+    "data": "2026-09-16",
+    "resumo": "Balanceamento de equações, mol, massa molar e cálculo de reagente limitante."
+  },
+  {
+    "id": 6,
+    "titulo": "Cinemática vetorial",
+    "disciplina": "Física",
+    "tipo": "Documento",
+    "data": "2026-09-20",
+    "resumo": "Vetores posição, velocidade e aceleração; lançamento oblíquo com decomposição de vetores."
+  },
+  {
+    "id": 7,
+    "titulo": "Progressões aritméticas",
+    "disciplina": "Matemática",
+    "tipo": "Lousa",
+    "data": "2026-09-23",
+    "resumo": "Termo geral, soma dos termos e problemas de aplicação com PA."
+  },
+  {
+    "id": 8,
+    "titulo": "Ligações químicas",
+    "disciplina": "Química",
+    "tipo": "Slide",
+    "data": "2026-09-30",
+    "resumo": "Ligações iônicas, covalentes e metálicas, com regra do octeto e geometria molecular."
+  }
+]
